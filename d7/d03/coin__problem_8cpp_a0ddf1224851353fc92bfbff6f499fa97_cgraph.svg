@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2" target="_top" xlink:title="Determine if the numbers are relatively prime. If they are, return the solution using Frobenius numbe...">
+<g id="a_node3"><a xlink:href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e" target="_top" xlink:title="Determine if the numbers are relatively prime. If they are, return the solution using Frobenius numbe...">
 <polygon fill="white" stroke="black" points="143,-0.5 143,-19.5 245,-19.5 245,-0.5 143,-0.5"/>
 <text text-anchor="middle" x="194" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">math::coin_problem</text>
 </a>

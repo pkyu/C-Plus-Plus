@@ -70,7 +70,7 @@ var searchData=
   ['codecvt_5futf8_67',['codecvt_utf8',['http://en.cppreference.com/w/cpp/locale/codecvt_utf8.html',0,'std']]],
   ['codecvt_5futf8_5futf16_68',['codecvt_utf8_utf16',['http://en.cppreference.com/w/cpp/locale/codecvt_utf8_utf16.html',0,'std']]],
   ['coin_5fchange_5ftopdown_2ecpp_69',['coin_change_topdown.cpp',['../d9/d31/coin__change__topdown_8cpp.html',1,'']]],
-  ['coin_5fproblem_70',['coin_problem',['../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2',1,'math']]],
+  ['coin_5fproblem_70',['coin_problem',['../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e',1,'math']]],
   ['coin_5fproblem_2ecpp_71',['coin_problem.cpp',['../d7/d03/coin__problem_8cpp.html',1,'']]],
   ['collate_72',['collate',['http://en.cppreference.com/w/cpp/locale/collate/collate.html',0,'std::collate::collate()'],['http://en.cppreference.com/w/cpp/locale/collate.html',0,'std::collate']]],
   ['collate_5fbyname_73',['collate_byname',['http://en.cppreference.com/w/cpp/locale/collate_byname.html',0,'std::collate_byname::collate_byname()'],['http://en.cppreference.com/w/cpp/locale/collate_byname.html',0,'std::collate_byname']]],

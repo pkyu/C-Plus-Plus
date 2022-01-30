@@ -141,9 +141,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac5803413618fcfb922cb32c6db0fc864"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#ac5803413618fcfb922cb32c6db0fc864">cylinder_surface_area</a> (T radius, T <a class="el" href="../../d8/dee/avltree_8cpp.html#ae4a66d8b0c2b0d626aea45977e358c83">height</a>)</td></tr>
 <tr class="memdesc:ac5803413618fcfb922cb32c6db0fc864"><td class="mdescLeft">&#160;</td><td class="mdescRight">surface area of a <a href="https://en.wikipedia.org/wiki/Cylinder" target="_blank">cylinder</a> (2 * pi * r * h + 2 * pi * r^2)  <a href="../../dd/d47/namespacemath.html#ac5803413618fcfb922cb32c6db0fc864">More...</a><br /></td></tr>
 <tr class="separator:ac5803413618fcfb922cb32c6db0fc864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9ec10b733f069fbe77916e54cd520a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">coin_problem</a> (int a, int b)</td></tr>
-<tr class="memdesc:ad9ec10b733f069fbe77916e54cd520a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius number formula. If not, there is no solution. Return -1.  <a href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">More...</a><br /></td></tr>
-<tr class="separator:ad9ec10b733f069fbe77916e54cd520a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd4fdcaa526dfdbd899c3173087627e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">coin_problem</a> (uint64_t a, uint64_t b)</td></tr>
+<tr class="memdesc:a5fd4fdcaa526dfdbd899c3173087627e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius number formula. If not, there is no solution. Return -1.  <a href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">More...</a><br /></td></tr>
+<tr class="separator:a5fd4fdcaa526dfdbd899c3173087627e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec65db4e5c7317323227f026fe50ef11"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#aec65db4e5c7317323227f026fe50ef11">integral_approx</a> (double lb, double ub, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; double(double)&gt; &amp;func, double delta=.0001)</td></tr>
 <tr class="memdesc:aec65db4e5c7317323227f026fe50ef11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes integral approximation.  <a href="../../dd/d47/namespacemath.html#aec65db4e5c7317323227f026fe50ef11">More...</a><br /></td></tr>
 <tr class="separator:aec65db4e5c7317323227f026fe50ef11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,8 +345,8 @@ template&lt;typename T &gt; </div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad9ec10b733f069fbe77916e54cd520a2" name="ad9ec10b733f069fbe77916e54cd520a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9ec10b733f069fbe77916e54cd520a2">&#9670;&nbsp;</a></span>coin_problem()</h2>
+<a id="a5fd4fdcaa526dfdbd899c3173087627e" name="a5fd4fdcaa526dfdbd899c3173087627e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd4fdcaa526dfdbd899c3173087627e">&#9670;&nbsp;</a></span>coin_problem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,13 +354,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">int math::coin_problem </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -382,7 +382,7 @@ template&lt;typename T &gt; </div>
 <p >Compute solution if they were relatively prime</p>
 <p >Use Euclid's algorithm to find GCD</p>
 <p >If GCD is 1, a &amp; b are relatively prime - return solution. If GCD is not 1, there is no solution - return -1.</p>
-<div class="fragment"><div class="line"><span class="lineno">   31</span>                                   {<span class="comment"></span></div>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>                                             {<span class="comment"></span></div>
 <div class="line"><span class="lineno">   32</span><span class="comment">        /// Compute solution if they were relatively prime</span></div>
 <div class="line"><span class="lineno">   33</span><span class="comment"></span>        <span class="keywordtype">int</span> solution = (a * b) - (a + b);<span class="comment"></span></div>
 <div class="line"><span class="lineno">   34</span><span class="comment">        /// Use Euclid&#39;s algorithm to find GCD</span></div>

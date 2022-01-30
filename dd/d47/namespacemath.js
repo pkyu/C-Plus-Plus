@@ -31,7 +31,7 @@ var namespacemath =
     [ "approximate_pi", "dd/d47/namespacemath.html#abf7f2a6d91f1ca6c89698792aea3f188", null ],
     [ "binomialCoeffSum", "dd/d47/namespacemath.html#ae1ca505751f5a6d3977b86372cfe75ea", null ],
     [ "circle_area", "dd/d47/namespacemath.html#a40e36c67da78d2131408c57ee091ad75", null ],
-    [ "coin_problem", "dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2", null ],
+    [ "coin_problem", "dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e", null ],
     [ "cone_volume", "dd/d47/namespacemath.html#a3fe35440c27758ecc2287e08217d63a7", null ],
     [ "cube_surface_area", "dd/d47/namespacemath.html#abc46c784a297fc1d2eb8b33a327fba4c", null ],
     [ "cube_volume", "dd/d47/namespacemath.html#ae413098478fa38acaac887b7654f0725", null ],

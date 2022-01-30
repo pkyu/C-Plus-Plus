@@ -116,9 +116,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad9ec10b733f069fbe77916e54cd520a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a> (int a, int b)</td></tr>
-<tr class="memdesc:ad9ec10b733f069fbe77916e54cd520a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius number formula. If not, there is no solution. Return -1.  <a href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">More...</a><br /></td></tr>
-<tr class="separator:ad9ec10b733f069fbe77916e54cd520a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd4fdcaa526dfdbd899c3173087627e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a> (uint64_t a, uint64_t b)</td></tr>
+<tr class="memdesc:a5fd4fdcaa526dfdbd899c3173087627e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius number formula. If not, there is no solution. Return -1.  <a href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">More...</a><br /></td></tr>
+<tr class="separator:a5fd4fdcaa526dfdbd899c3173087627e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8dca7b867074164d5f45b0f3851269d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/coin__problem_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a> ()</td></tr>
 <tr class="memdesc:aa8dca7b867074164d5f45b0f3851269d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self-test implementations.  <a href="../../d7/d03/coin__problem_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">More...</a><br /></td></tr>
 <tr class="separator:aa8dca7b867074164d5f45b0f3851269d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
 <div class="fragment"><div class="line"><span class="lineno">   82</span>                                 {</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_function" href="../../d7/d03/coin__problem_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_function" href="../../d7/d03/coin__problem_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>(); <span class="comment">// run self-test implementations</span></div>
 <div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><span class="lineno">   85</span>}</div>
 <div class="ttc" id="acoin__problem_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d7/d03/coin__problem_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> coin_problem.cpp:50</div></div>
@@ -206,31 +206,31 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 <div class="fragment"><div class="line"><span class="lineno">   50</span>                   {</div>
 <div class="line"><span class="lineno">   51</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=3, b=7&quot;</span>;</div>
-<div class="line"><span class="lineno">   52</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(3, 7) == 11);</div>
+<div class="line"><span class="lineno">   52</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(3, 7) == 11);</div>
 <div class="line"><span class="lineno">   53</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   54</span> </div>
 <div class="line"><span class="lineno">   55</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=2, b=23&quot;</span>;</div>
-<div class="line"><span class="lineno">   56</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(2, 23) == 21);</div>
+<div class="line"><span class="lineno">   56</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(2, 23) == 21);</div>
 <div class="line"><span class="lineno">   57</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   58</span> </div>
 <div class="line"><span class="lineno">   59</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=23, b=45&quot;</span>;</div>
-<div class="line"><span class="lineno">   60</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(23, 45) == 967);</div>
+<div class="line"><span class="lineno">   60</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(23, 45) == 967);</div>
 <div class="line"><span class="lineno">   61</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   62</span> </div>
 <div class="line"><span class="lineno">   63</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=455, b=93&quot;</span>;</div>
-<div class="line"><span class="lineno">   64</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(455, 93) == 41767);</div>
+<div class="line"><span class="lineno">   64</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(455, 93) == 41767);</div>
 <div class="line"><span class="lineno">   65</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   66</span> </div>
 <div class="line"><span class="lineno">   67</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=4, b=6&quot;</span>;</div>
-<div class="line"><span class="lineno">   68</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(4, 6) == -1);</div>
+<div class="line"><span class="lineno">   68</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(4, 6) == -1);</div>
 <div class="line"><span class="lineno">   69</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   70</span> </div>
 <div class="line"><span class="lineno">   71</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;a=1, b=1&quot;</span>;</div>
-<div class="line"><span class="lineno">   72</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a>(3, 3) == -1);</div>
+<div class="line"><span class="lineno">   72</span>    assert(<a class="code hl_function" href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a>(3, 3) == -1);</div>
 <div class="line"><span class="lineno">   73</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\npass\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   74</span>}</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="anamespacemath_html_ad9ec10b733f069fbe77916e54cd520a2"><div class="ttname"><a href="../../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2">math::coin_problem</a></div><div class="ttdeci">int coin_problem(int a, int b)</div><div class="ttdoc">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius numbe...</div><div class="ttdef"><b>Definition:</b> coin_problem.cpp:31</div></div>
+<div class="ttc" id="anamespacemath_html_a5fd4fdcaa526dfdbd899c3173087627e"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e">math::coin_problem</a></div><div class="ttdeci">int coin_problem(uint64_t a, uint64_t b)</div><div class="ttdoc">Determine if the numbers are relatively prime. If they are, return the solution using Frobenius numbe...</div><div class="ttdef"><b>Definition:</b> coin_problem.cpp:31</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

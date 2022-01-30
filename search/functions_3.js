@@ -42,7 +42,7 @@ var searchData=
   ['codec_39',['codec',['../d6/d26/classciphers_1_1_hill_cipher.html#ad667fa0860977f6d6d443fa1dbcd80aa',1,'ciphers::HillCipher']]],
   ['codecvt_40',['codecvt',['http://en.cppreference.com/w/cpp/locale/codecvt/codecvt.html',0,'std::codecvt']]],
   ['codecvt_5fbyname_41',['codecvt_byname',['http://en.cppreference.com/w/cpp/locale/codecvt_byname.html',0,'std::codecvt_byname']]],
-  ['coin_5fproblem_42',['coin_problem',['../dd/d47/namespacemath.html#ad9ec10b733f069fbe77916e54cd520a2',1,'math']]],
+  ['coin_5fproblem_42',['coin_problem',['../dd/d47/namespacemath.html#a5fd4fdcaa526dfdbd899c3173087627e',1,'math']]],
   ['collate_43',['collate',['http://en.cppreference.com/w/cpp/locale/collate/collate.html',0,'std::collate']]],
   ['collate_5fbyname_44',['collate_byname',['http://en.cppreference.com/w/cpp/locale/collate_byname.html',0,'std::collate_byname']]],
   ['combine_45',['combine',['http://en.cppreference.com/w/cpp/locale/locale/combine.html',0,'std::locale::combine()'],['../d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g.html#a41c733f5f5e262b308f7cb95c88c1e74',1,'range_queries::heavy_light_decomposition::SG::combine()']]],
